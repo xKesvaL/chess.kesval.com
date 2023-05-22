@@ -3,11 +3,11 @@
 </script>
 
 <main>
-	<Chessground board />
+	<Chessground />
 </main>
 
 <style lang="scss">
 	main {
-		max-width: 40vw;
+		width: 600px;
 	}
 </style>

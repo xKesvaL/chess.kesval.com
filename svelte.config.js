@@ -12,7 +12,8 @@ const config = {
 			postcss: true,
 
 			scss: {
-				prependData: '@use "src/variables.scss" as *;'
+				prependData:
+					'@use "src/lib/scss/_mixins.scss" as *; @use "src/lib/scss/_breakpoints.scss" as *;'
 			}
 		})
 	],
